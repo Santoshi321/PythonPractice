@@ -5,6 +5,19 @@ Created on Mon Jul  8 15:06:30 2019
 
 @author: sgandham
 """
+abcd = ['nintendo','Spain', 1, 2, 3]
+
+print(abcd)
+
+# Ex1 - Select the third element of the list and print it
+abcd[2]
+
+
+# Ex2 - Type a nested list with the follwing list elements inside list abcd mentioned above and print it
+
+newlist = [54,76]
+abcd.append(newlist)
+print (abcd)
 
 # Ex3 - Print the 1 and the 4 position element in the following list
 
@@ -84,3 +97,4 @@ list1.sort()
 
 #sort list1 by reverse order
 list1.sort(reverse=True)
+    
